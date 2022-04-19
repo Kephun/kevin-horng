@@ -1,9 +1,9 @@
 import React from 'react'
-
+import './Navbar.css'
 function Navbar() {
   return (
     <div className='navbar'>
-        {/* Logo */}
+        <i className="fa-brands fa-korvue"></i>
         <nav className='navbar__container'>
             <ul className='navbar__info'>
                 <li>About</li>
@@ -12,7 +12,6 @@ function Navbar() {
                 <li>Contact</li>
             </ul>
         </nav>
-
     </div>
   )
 }
