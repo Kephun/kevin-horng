@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact {
+    position: relative;
+    width: 100%;
+    border: 1px solid;
+    padding: 40px;
+}

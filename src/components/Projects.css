@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.projects {
+    position: relative;
+    width: 100%;
+    border: 1px solid;
+    padding: 40px;
+}
+
+.project__container {
+    display: flex;
+}
+
+.project__container > * {
+    height: 200px;
+    width: 300px;
+}

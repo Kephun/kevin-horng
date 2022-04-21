@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './Contact.css'
 
 function Contact() {
   return (
-    <div>Contact</div>
+    <section className='contact'>
+      <h4>Let's link!</h4>
+    </section>
   )
 }
 
