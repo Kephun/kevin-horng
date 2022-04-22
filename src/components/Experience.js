@@ -6,7 +6,13 @@ function Experience() {
     <section className='experience'>
       <h3>Skills</h3>
       {/* Logos of the stack I use */}
-      <p>Resume</p>
+      <ul className='experience_skills'>
+        <li><i class="fa-brands fa-html5"></i></li>
+        <li><i class="fa-brands fa-css3"></i></li>
+        <li><i class="fa-brands fa-js"></i></li>
+        <li><i class="fa-brands fa-react"></i></li>
+        <li><i class="fa-brands fa-node"></i></li>
+      </ul>
     </section>
   )
 }

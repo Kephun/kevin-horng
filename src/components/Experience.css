@@ -5,8 +5,18 @@
 }
 
 .experience {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: relative;
     width: 100%;
     border: 1px solid;
     padding: 40px;
+}
+
+.experience_skills {
+    display: flex;
+    list-style: none;
+    gap: 20px;
 }

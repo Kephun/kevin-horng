@@ -11,11 +11,18 @@
     padding: 40px;
 }
 
-.project__container {
-    display: flex;
+.projects_container {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    padding: 20px;
+    border: 1px solid;
+    gap: 5px;
 }
 
-.project__container > * {
-    height: 200px;
-    width: 300px;
+.projects_container > *{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dotted;
 }

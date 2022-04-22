@@ -4,7 +4,11 @@ import './Contact.css'
 function Contact() {
   return (
     <section className='contact'>
-      <h4>Let's link!</h4>
+      <form className='contact_form'>
+        Name<input/>
+        Email<input/> 
+        Message<input/>
+      </form>
     </section>
   )
 }

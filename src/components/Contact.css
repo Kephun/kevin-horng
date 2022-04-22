@@ -5,8 +5,17 @@
 }
 
 .contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     position: relative;
     width: 100%;
     border: 1px solid;
     padding: 40px;
 }
+
+.contact_form {
+    display:flex;
+    flex-direction: column;
+}
+
