@@ -5,23 +5,28 @@
 }
 
 .about {
-    position: relative;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-    width: 100%;
+    justify-content: center;
+    align-items: center;
     border: 1px solid;
-    padding: 60px 200px
+    padding: 40px;
+}
+
+.about_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about_main {
     display: flex;
-
+    flex-direction: column;
+    gap: 10px;
 }
 
 .about_socials {
-    list-style: none;
     display: flex;
     justify-content: space-evenly;
-    margin-left: 20px;
 }
+
+

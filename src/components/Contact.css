@@ -12,10 +12,25 @@
     width: 100%;
     border: 1px solid;
     padding: 40px;
+    gap: 40px;
+}
+
+.contact_info {
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 15px;
 }
 
 .contact_form {
     display:flex;
     flex-direction: column;
 }
+
+input {
+    width: 100%;
+    margin-bottom: 8px;
+}
+
 
